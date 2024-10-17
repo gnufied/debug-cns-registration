@@ -13,7 +13,8 @@ potentially enabling CSI migration.
 ### Run it:
 
 ```
-./bin/cns-register -pv pvc-b81a0f6b-aeaf-42d6-9832-2c9c912d9c18
+~> export KUBECONFIG=<path_to_readable_kubeconfig>
+~> ./bin/cns-register -pv pvc-b81a0f6b-aeaf-42d6-9832-2c9c912d9c18
 ```
 
 Where `pvc-b81a0f6b-aeaf-42d6-9832-2c9c912d9c18` is the name of the PV you are looking to register with vCenter.
