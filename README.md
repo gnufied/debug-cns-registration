@@ -1,4 +1,4 @@
-# debug CNS registration of in-tree volumes
+# Debug CNS registration of in-tree volumes
 
 This tool allows us to debug CNS registration of in-tree vSphere volumes without
 potentially enabling CSI migration.
