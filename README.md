@@ -14,6 +14,8 @@ potentially enabling CSI migration.
 
 ```
 ~> export KUBECONFIG=<path_to_readable_kubeconfig>
+# Make sure /tmp is writable by the user running this command. This tool will write a file called
+# /tmp/vsphere-csi.conf for configuration that should be used by the tool.
 ~> ./bin/cns-register -pv pvc-b81a0f6b-aeaf-42d6-9832-2c9c912d9c18
 ```
 
